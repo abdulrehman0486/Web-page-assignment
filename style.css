@@ -1,0 +1,139 @@
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', 'sans serif';
+    transition: .5s;
+}
+
+
+.header{
+    height: 35px;
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.maine{
+    font-size: 1.5rem;
+    /* font-weight: 600px; */
+    color: #001133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #001133;
+    /* margin: 35px; */
+    
+
+}
+
+
+.header .navber a{
+    /* margin-right: 3rem; */
+    margin-left: 3rem;
+    /* padding: .3rem 1.5rem; */
+   font-weight: 3;
+    color: #000;
+    border-radius: .5rem;
+    justify-content: space-between;
+    /* margin: 35px; */
+}
+
+.header .navber a:hover,
+header .navber a.active{
+
+    background-color: #001133;
+    color: #fff;
+
+}
+header .fa-solid{
+    display:none;  
+    /* visibility: hidden; */
+    color: blue;
+    font-size: 1.5rem;
+}
+
+
+.content{
+    /* padding: 1.5rem 5%; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 2rem; */
+}
+
+.content{
+    width: 100%;
+}
+.h1{
+    color: rgb(65, 92, 241);
+}
+
+.p{
+    margin: 8px;
+    color: #042669;
+    font-size: 1.5rem;
+    
+    
+}
+
+
+.img img{
+    width: 400px;
+    /* height: 80px; */
+    /* justify-content: center; */
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 1px rgb(190, 189, 189);
+}
+.btn1{
+    width: 180PX;
+    height: 30PX;
+    background-color: #042669;
+    border-radius: 10px 10px 10px 10px;
+    color: #d1d0d6;
+    margin: 8PX;
+    border: 2px solid blue;
+}
+.btn2{
+    width: 180PX;
+    height: 30PX;
+    background-color: #898a8b;
+    border-radius: 10px 10px 10px 10px;
+    color: #2d2d2e;
+    margin: 8PX;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+
+@media (max-width:680px){
+    body{
+        background-color: rgb(72, 112, 243);
+      }
+      header{
+          width: 100%;
+      }
+      header .navber a{
+            display: none;
+      }
+      header .fa-solid{
+        display: flex;
+      }
+      
+}
+
+
+    
+
+
